@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MultiLingualForm2.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../Day-1Code/codesamples/semantic-and-forms/MultiLingualForm2.html">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.1401734" vertical-offset="0" max-vertical-offset="2970">
-              <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.424196" vertical-offset="1613" max-vertical-offset="3945">
+              <caret line="126" column="127" selection-start-line="126" selection-start-column="127" selection-end-line="126" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -378,6 +378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="3945">
           <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -392,6 +393,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="431" max-vertical-offset="3630">
           <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -455,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.74007684" vertical-offset="578" max-vertical-offset="1470">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0282258" vertical-offset="210" max-vertical-offset="3945">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -531,8 +526,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Day-1Code/codesamples/semantic-and-forms/MultiLingualForm2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.1401734" vertical-offset="0" max-vertical-offset="2970">
+        <state vertical-scroll-proportion="-119.375" vertical-offset="0" max-vertical-offset="2970">
           <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.424196" vertical-offset="1613" max-vertical-offset="3945">
+          <caret line="126" column="127" selection-start-line="126" selection-start-column="127" selection-end-line="126" selection-end-column="127" />
           <folding />
         </state>
       </provider>
