@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>Hello, world!</h1>
@@ -23,3 +25,5 @@
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div>
       </div>
+
+<?php get_footer(); ?>
