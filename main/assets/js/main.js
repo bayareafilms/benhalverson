@@ -9,7 +9,7 @@
 		// init scroll-to effect navigation, adjust the scroll speed in milliseconds			
 		$('#main-nav').localScroll(1000);
 		$('#header').localScroll(1000);
-
+        $('#blog').localScroll(500);
 
 		// google maps 
 		if( $('.map-canvas').length > 0) {

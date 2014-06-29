@@ -9097,7 +9097,7 @@ a:hover, a:focus {
 .btn-primary,
 .btn-primary[disabled],
 .btn-primary.disabled {
-  background-color: #cf5037;
+  background-color: #256283;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus,
 .btn-primary[disabled]:hover,
@@ -9138,7 +9138,7 @@ a:hover, a:focus {
 }
 
 .navbar-default {
-  background-color: #cf5037;
+  background-color: #256283;
   border: none;
 }
 .navbar-default .navbar-nav {
@@ -9391,7 +9391,7 @@ ul.social-icons .icon:hover {
   text-align: left;
   margin: 50px 0;
   padding: 1.3em;
-  color: #3c3c3c;
+  color: #759db2;
 }
 @media (min-width: 992px) {
   .timeline .event {
@@ -9403,7 +9403,7 @@ ul.social-icons .icon:hover {
   background: #f5e2c7;
 }
 .timeline .event:hover:after {
-  background: #2067ca;
+  background: #CBCFD1;
 }
 .timeline .event:after {
   -webkit-border-radius: 0;

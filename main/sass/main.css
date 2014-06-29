@@ -1,0 +1,101 @@
+/*
+Syntax error: Undefined mixin 'inline-block'.
+        on line 16 of partials/_navigation.scss, in `inline-block'
+        from line 16 of partials/_navigation.scss
+        from line 26 of main.scss
+
+11: *	############################################################################
+12: *\/
+13: 
+14: 
+15: 
+16: // Import main
+17: @import "vendor/bootstrap";
+18: @import "vendor/font-awesome";
+19: @import "vendor/timeline";
+20: @import "modules/variables";
+21: @import "modules/mixins";
+
+Backtrace:
+partials/_navigation.scss:16:in `inline-block'
+partials/_navigation.scss:16
+main.scss:26
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:320:in `block in visit_mixin'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:98:in `with_mixin'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:318:in `visit_mixin'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:389:in `map'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:389:in `block (2 levels) in visit_rule'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:389:in `map'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:389:in `block in visit_rule'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:387:in `visit_rule'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:297:in `block (2 levels) in visit_import'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:297:in `map'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:297:in `block in visit_import'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:88:in `block in with_import'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:88:in `with_import'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:121:in `with_frame'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/stack.rb:79:in `with_base'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/tree/root_node.rb:20:in `render'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/engine.rb:274:in `render'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:378:in `update_stylesheet'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `each'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/exec.rb:489:in `watch_or_update'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/exec.rb:346:in `process_result'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/exec.rb:43:in `parse'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/lib/sass/exec.rb:22:in `parse!'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/gems/sass-3.3.8/bin/scss:13:in `<top (required)>'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/bin/scss:23:in `load'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/bin/scss:23:in `<main>'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+/Users/ben/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'inline-block'.\A         on line 16 of partials/_navigation.scss, in `inline-block'\A         from line 16 of partials/_navigation.scss\A         from line 26 of main.scss\A \A 11: *	############################################################################\A 12: */\A 13: \A 14: \A 15: \A 16: // Import main\A 17: @import \"vendor/bootstrap\";\A 18: @import \"vendor/font-awesome\";\A 19: @import \"vendor/timeline\";\A 20: @import \"modules/variables\";\A 21: @import \"modules/mixins\";"; }

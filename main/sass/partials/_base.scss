@@ -3,10 +3,10 @@
 /*------------------------------------------------*/
 
 
-@import "compass/typography";
-@import "compass/css3";
+/*@import "compass/typography";
+@import "compass/css3";does not work */
 
-@include font-face($secondary-font-family-bold, font-files(	
+/* disable @include font-face($secondary-font-family-bold, font-files(
 	"josefinslab-bold-webfont.svg",
 	"josefinslab-bold-webfont.ttf",
 	"josefinslab-bold-webfont.woff"
@@ -16,7 +16,7 @@
 	"josefinslab-light-webfont.svg",
 	"josefinslab-light-webfont.ttf",
 	"josefinslab-light-webfont.woff"
-	), "josefinslab-light-webfont.eot");
+	), "josefinslab-light-webfont.eot"); */
 
 
 /* general styles */
@@ -117,9 +117,9 @@ a {
 	-webkit-animation: animate-stripes 2s linear infinite;
 }
 
-.popover {
-	@include single-box-shadow(rgba(0, 0, 0, 0.1), 0, 2px, 4px, 0 );
-}
+//.popover {
+	//@include single-box-shadow(rgba(0, 0, 0, 0.1), 0, 2px, 4px, 0 );
+//}
 
 .light-icon {
 	color: $base-font-color-light;
