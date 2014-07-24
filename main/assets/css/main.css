@@ -804,6 +804,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 47px;
 }
 
 .row:before,
@@ -8965,7 +8966,7 @@ a .icon-flip-vertical:before {
   list-style-type: none;
   display: block;
   padding: .4em;
-  background: white;
+  background: #f5e2c7;
   z-index: 15;
   color: #4d4d4d;
   border: 1px solid #9d9d9d;
@@ -9052,10 +9053,10 @@ body {
 }
 
 a {
-  color: #cf5037;
+  color: #448ac3;
 }
 a:hover, a:focus {
-  color: #d97460;
+  color: #182538;
   text-decoration: none;
 }
 
@@ -9069,7 +9070,7 @@ a:hover, a:focus {
 }
 .section .heading {
   font-family: "Josefin Slab Light";
-  color: #bc341b;
+  color: #182538;
   font-size: 3em;
   line-height: 1.6;
   margin-top: 0;
@@ -9186,7 +9187,7 @@ a:hover, a:focus {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url('../img/hero-bg.png?1378700994');
+  background-image: url('../img/hero-bg.png');
   background-repeat: no-repeat;
   background-position: top center;
   padding-top: 125px;
@@ -9355,13 +9356,13 @@ ul.social-icons .icon:hover {
 
 /* timeline */
 .timeline {
-  background-image: url('../img/vertical-line.png?1378694750');
+  background-image: url('../img/vertical-line-blue.png');
   background-repeat: repeat-y;
   background-position: 50% 0;
   max-width: 960px;
 }
 .timeline .year {
-  background: #cf5037;
+  background: #508fcf;
   font-size: 1em;
   line-height: 4;
   color: #f4debe;
@@ -9386,7 +9387,7 @@ ul.social-icons .icon:hover {
 }
 .timeline .event {
   width: 100%;
-  background: #f5e2c7;
+  background: #black;
   border-color: #e5b267;
   text-align: left;
   margin: 50px 0;
